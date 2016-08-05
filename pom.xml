@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.marklogic</groupId>
   <artifactId>marklogic-contentpump</artifactId>
-  <version>9.0</version>
+  <version>9.0-SNAPSHOT</version>
   <name>MarkLogic Content Pump and Connector for Hadoop</name>
   <description>MarkLogic Content Pump and Connector for Hadoop</description>
   <packaging>pom</packaging>
@@ -11,4 +11,12 @@
     <module>mapreduce</module>
     <module>mlcp</module>
   </modules>
+
+  <repositories>
+    <repository>
+      <id>local_repo</id>
+      <url>file://local_repo</url>
+    </repository>
+  </repositories>
+
 </project>
